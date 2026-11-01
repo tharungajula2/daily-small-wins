@@ -4,38 +4,27 @@ import AppLifecycleManager from '@/components/core/AppLifecycleManager';
 import { CircadianProvider } from '@/components/core/CircadianProvider';
 
 export const metadata: Metadata = {
-  title: 'TRELIS | The quiet structure your life grows on.',
-  description: 'Trelis isn’t a habit tracker. It’s one calm daily ritual and a few promises you actually keep — built for people who need structure but live unpredictable days.',
-  applicationName: 'Trelis Life',
-  authors: [{ name: 'Trelis' }],
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://your-trelis-vercel-url.vercel.app'),
+  title: 'Daily Small Wins | A calm daily reflection',
+  description: 'A calm daily structure prototype for capturing small wins and reflecting on the day.',
+  applicationName: 'Daily Small Wins',
+  metadataBase: process.env.NEXT_PUBLIC_SITE_URL ? new URL(process.env.NEXT_PUBLIC_SITE_URL) : undefined,
   manifest: '/manifest.json',
   openGraph: {
-    title: 'TRELIS | Structure for a better life.',
-    description: 'One calm daily ritual and a few promises you actually keep. It bends so you don’t break.',
-    url: '/',
-    siteName: 'Trelis',
-    images: [
-      {
-        url: '/opengraph-image.png',
-        width: 1200,
-        height: 630,
-        alt: 'Trelis - The open ring',
-      },
-    ],
+    title: 'Daily Small Wins | A calm daily reflection',
+    description: 'A daily structure prototype for capturing small wins and reflecting on the day.',
+    siteName: 'Daily Small Wins',
     locale: 'en_US',
     type: 'website',
   },
   twitter: {
-    card: 'summary_large_image',
-    title: 'TRELIS | The quiet structure your life grows on.',
-    description: 'One calm daily ritual and a few promises you actually keep. It bends so you don’t break.',
-    images: ['/opengraph-image.png'],
+    card: 'summary',
+    title: 'Daily Small Wins | A calm daily reflection',
+    description: 'A daily structure prototype for capturing small wins and reflecting on the day.',
   },
   appleWebApp: {
     capable: true,
     statusBarStyle: 'black-translucent',
-    title: 'Trelis',
+    title: 'Daily Small Wins',
   },
 };
 

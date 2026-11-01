@@ -13,7 +13,7 @@ interface TourStep {
 
 const TOUR_STEPS: TourStep[] = [
   {
-    title: 'Welcome to Trelis Life',
+    title: 'Welcome to Daily Small Wins',
     description: 'Not a health app. A Life Operating System. A quiet space designed to bring structure, clarity, and calm to your day.',
   },
   {

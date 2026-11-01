@@ -222,7 +222,7 @@ function Dashboard() {
 
       
       <header className="h-16 flex items-center justify-between px-6 border-b border-muted/50 bg-surface/90 backdrop-blur-md sticky top-0 z-30 shadow-[0_1px_3px_rgba(0,0,0,0.02)]">
-        <div className="flex flex-col text-left select-none w-24">
+        <div className="flex flex-col text-left select-none w-20 shrink-0">
           <span 
             suppressHydrationWarning
             className="text-[9px] font-semibold tracking-widest text-ink-secondary leading-none"
@@ -239,16 +239,16 @@ function Dashboard() {
         <div className="flex items-center gap-2">
           <Image 
             src="/logo-transparent.png" 
-            alt="Trelis Life Logo" 
+            alt="Daily Small Wins logo"
             width={28} 
             height={28} 
             className="object-contain"
           />
-          <h1 className="text-xl font-semibold tracking-widest text-ink-primary uppercase">
-            Trelis
+          <h1 className="text-xs sm:text-sm font-semibold tracking-tight text-ink-primary whitespace-nowrap">
+            Daily Small Wins
           </h1>
         </div>
-        <div className="w-24 flex justify-end gap-2">
+        <div className="w-8 shrink-0 flex justify-end gap-2">
           <motion.button 
             whileTap={{ scale: 0.95 }}
             onClick={() => router.push('/settings')}

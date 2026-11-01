@@ -53,7 +53,7 @@ export default function UpdatePasswordPage() {
         className="w-full max-w-sm"
       >
         <div className="text-center mb-10">
-          <h1 className="text-2xl text-ink-primary font-semibold tracking-wide mb-2">TRELIS</h1>
+          <h1 className="text-2xl text-ink-primary font-semibold tracking-wide mb-2">Daily Small Wins</h1>
           <p className="text-sm text-ink-secondary">Set a new password for your account.</p>
         </div>
 

@@ -215,7 +215,7 @@ export default function SettingsPage() {
         ]);
         const { data: { session } } = await getSessionPromise;
         if (session?.user) {
-          setProfileEmail(session.user.email || 'user@trelis.life');
+          setProfileEmail(session.user.email || 'user@example.com');
           await loadPartnerInfo(session.user.id, session.user.email || '');
         }
       } catch (e) {
@@ -611,7 +611,7 @@ export default function SettingsPage() {
                     type="email"
                     value={partnerEmailInput}
                     onChange={(e) => setPartnerEmailInput(e.target.value)}
-                    placeholder="partner@trelis.life"
+                    placeholder="partner@example.com"
                     className="w-full bg-canvas border border-muted rounded-xl px-3 py-2 text-xs text-ink-primary focus:outline-none focus:border-accent-teal transition-all font-normal"
                   />
                 </div>

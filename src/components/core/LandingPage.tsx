@@ -51,7 +51,7 @@ export default function LandingPage() {
       {/* Premium Header */}
       <header className={`fixed top-0 inset-x-0 h-16 ${isDark ? 'bg-[#1E1B18]/80 border-b border-[#2C2C2E]' : 'bg-[#FFFFFF]/80 border-b border-muted/30'} backdrop-blur-md flex items-center justify-between px-6 z-50 max-w-4xl mx-auto rounded-b-xl transition-colors duration-1000`}>
         <div className="flex items-center gap-2">
-          <span className="text-lg font-semibold tracking-widest text-[#2A7F7F]">TRELIS</span>
+          <span className="text-lg font-semibold tracking-widest text-[#2A7F7F]">Daily Small Wins</span>
         </div>
         <Link 
           href="/login"
@@ -86,7 +86,7 @@ export default function LandingPage() {
               <span className="text-[#2A7F7F] bg-accent-teal/5 px-3 py-1 rounded-md">your life grows on.</span>
             </h1>
             <p className={`text-sm ${isDark ? 'text-[#9A9A9E]' : 'text-[#5C5C5E]'} leading-relaxed max-w-sm mx-auto font-normal`}>
-              Trelis isn't a habit tracker. It's one calm daily ritual and a few promises you actually keep — built for people who need structure but live unpredictable days. It bends so you don't break.
+              Daily Small Wins is a calm daily reflection prototype. Capture a small win, check in with your day, and keep a simple record of progress.
             </p>
           </div>
 
@@ -172,7 +172,7 @@ export default function LandingPage() {
                 <h4 className={`text-xs uppercase tracking-widest font-semibold ${isDark ? 'text-white' : 'text-[#1C1C1E]'}`}>Then you leave</h4>
               </div>
               <p className={`text-xs ${isDark ? 'text-[#9A9A9E]' : 'text-[#5C5C5E]'} leading-relaxed font-normal`}>
-                Trelis doesn't want your time. You show up, keep your word, and get back to your life. The win was never on the screen.
+                Daily Small Wins keeps the check-in brief. You show up, record a moment, and get back to your life. The win was never on the screen.
               </p>
             </div>
           </div>
@@ -229,7 +229,7 @@ export default function LandingPage() {
                 No shame, ever
               </h4>
               <p className={`text-xs ${isDark ? 'text-[#9A9A9E]' : 'text-[#5C5C5E]'} leading-relaxed font-normal`}>
-                Trelis celebrates — it never accuses. There's no red number waiting to tell you that you failed.
+                Daily Small Wins celebrates — it never accuses. There's no red number waiting to tell you that you failed.
               </p>
             </div>
           </div>
@@ -237,7 +237,7 @@ export default function LandingPage() {
 
         {/* Footer */}
         <footer className={`text-center text-[10px] uppercase tracking-widest text-[#5C5C5E] border-t ${isDark ? 'border-[#2C2C2E]' : 'border-muted/30'} pt-8 mt-12 font-normal`}>
-          © 2026 TRELIS · Structure for a better life.
+          © 2026 Daily Small Wins · Structure for a better life.
         </footer>
 
       </div>
