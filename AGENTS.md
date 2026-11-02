@@ -4,10 +4,10 @@
 This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` before writing any code. Heed deprecation notices.
 <!-- END:nextjs-agent-rules -->
 
-# TRELIS LIFE - MASTER ENGINEERING RULES
+# DAILY SMALL WINS - MASTER ENGINEERING RULES
 
 ## 1. PROJECT IDENTITY & MISSION
-- **Name:** Trelis Life
+- **Name:** Daily Small Wins
 - **Core Philosophy:** "Not a Health App. A Life Operating System. Structure for a better life."
 - **Execution Mode:** Surgical precision, zero destructive errors, highest order of operations.
 

@@ -107,10 +107,10 @@ export default function LoginPage() {
         <div className="text-center mb-10 flex flex-col items-center">
           <img 
             src="/icons/icon-192.webp" 
-            alt="Trelis Logo" 
+            alt="Daily Small Wins logo"
             className="w-16 h-16 object-contain mb-6 select-none"
           />
-          <h1 className="text-2xl text-ink-primary font-semibold tracking-wide mb-2">TRELIS</h1>
+          <h1 className="text-2xl text-ink-primary font-semibold tracking-wide mb-2">Daily Small Wins</h1>
           <p className="text-sm text-ink-secondary">Structure for a better life.</p>
         </div>
 

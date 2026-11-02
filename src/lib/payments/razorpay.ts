@@ -1,5 +1,5 @@
 /**
- * Razorpay Web Checkout integration utility bridge for Trelis Life.
+ * Razorpay Web Checkout integration utility bridge for Daily Small Wins.
  * THIS ENGINE HAS BEEN DEPRECATED & INACTIVATED IN FAVOR OF THE Frictionless WAITLIST & SURVEY.
  * 
  * declare global {

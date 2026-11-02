@@ -1,5 +1,5 @@
 /**
- * Hardened Local Day Matcher for Trelis Life.
+ * Hardened Local Day Matcher for Daily Small Wins.
  * Maps standard JS weekday numeric indexes safely to our frequency string schema.
  * Sunday is strictly 0 ('Sun'), Monday is strictly 1 ('Mon'), etc.
  * Uses local device time directly to avoid GMT/UTC off-by-one timezone errors.

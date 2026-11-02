@@ -1,4 +1,4 @@
-# Trelis Life — Project Blueprint
+# Daily Small Wins — Project Blueprint
 
 > This guide describes the checked-in application as inspected on 31 October 2026. Source code is the implementation evidence. The project owner confirms that the original Supabase project has been deleted; Supabase code described here is historical implementation, not a currently available or verified service. Historical product documents are preserved, but some claims do not match the current source. No app runtime, build, lint, database, or deployment was exercised for this documentation review.
 
@@ -21,7 +21,7 @@
 
 ## 1. Project identity and maturity
 
-Trelis Life is a personal routine and reflection web application. It explores using small, positively framed actions instead of an all-or-nothing habit checklist: a person checks in at the start and end of a day, captures a “win” in a named playlist, and can enable optional writing and task modules.
+Daily Small Wins is a personal routine and reflection web application. It explores using small, positively framed actions instead of an all-or-nothing habit checklist: a person checks in at the start and end of a day, captures a “win” in a named playlist, and can enable optional writing and task modules.
 
 **Maturity: substantial prototype / work in progress.** This is more than a static mock-up: the repository contains routed interfaces, interactive Zustand actions, browser persistence, email/password auth flows, prior Supabase query/mutation code, and SQL migrations. The original Supabase backend has been deleted, so those integration paths are historical and unavailable as a working service. There is no checked-in automated test suite or test script. No build, replacement backend, or production deployment was verified.
 
@@ -84,10 +84,9 @@ src/
   utils/               Date, streak, prompt, and legacy starter helpers
 supabase/
   migrations/          Incremental SQL changes and RLS policies
-  seed_phase4_protocol.sql  Seed script; public-data review required
 ```
 
-The root `README.md` is now a concise portfolio entry point. [`USER_MANUAL.md`](./USER_MANUAL.md) and [`TRELIS_LIFE_SOURCE_OF_TRUTH.md`](./TRELIS_LIFE_SOURCE_OF_TRUTH.md) are retained historical references; descriptions such as passwordless login, a fully offline PWA, or a previous anchor workflow should not be assumed current without matching code evidence.
+The root `README.md` is now a concise portfolio entry point. Archived product documents are retained as historical references; descriptions such as passwordless login, a fully offline PWA, or a previous anchor workflow should not be assumed current without matching code evidence.
 
 ## 4. Application architecture
 
@@ -166,7 +165,7 @@ This is a field-specific merge in the retained code, not a general conflict-reso
 
 ### Migration and seed boundaries
 
-The migration and seed SQL are retained source files only. This documentation work did not execute SQL or connect to Supabase. [`supabase/seed_phase4_protocol.sql`](./supabase/seed_phase4_protocol.sql) remains flagged for **separate public-data review**: its contents may include personal data and include data-changing statements. Its provenance and safety are unresolved. Do not classify it as harmless or synthetic, and do not publish its records until an authorized review determines the appropriate handling. The original backend is deleted; this guide does not direct anyone to execute SQL or access another project.
+The migration SQL is retained as source only. The previously flagged `supabase/seed_phase4_protocol.sql` is absent from this checkout; a prior path-specific public-history check found no match. This does not establish the safety of any separate copy. No SQL or Supabase service was accessed for this refinement. The original backend is deleted; this guide does not direct anyone to execute SQL or access another project.
 
 ## 7. Important logic
 
@@ -293,4 +292,3 @@ The code suggests practical improvements without implying they already exist:
 - [Ritual UI components](./src/components/rituals/)
 - [Optional-module routes](./src/app/journal/page.tsx), [to-do](./src/app/todo/page.tsx), and [notes](./src/app/notes/page.tsx)
 - [Incremental database migrations](./supabase/migrations/)
-- [Seed script requiring public-data review](./supabase/seed_phase4_protocol.sql)

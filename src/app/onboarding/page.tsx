@@ -632,7 +632,7 @@ export default function OnboardingPage() {
                     Optional Modules
                   </h2>
                   <p className="text-[10px] text-ink-secondary tracking-widest uppercase mt-0.5 font-semibold">
-                    Customize your Trelis experience
+                    Customize your Daily Small Wins experience
                   </p>
                 </div>
                 <p className="text-xs text-ink-secondary leading-relaxed font-normal">
@@ -811,7 +811,7 @@ export default function OnboardingPage() {
               isSubmitting ? "opacity-70 cursor-wait" : ""
             }`}
           >
-            {isSubmitting ? "Building Structure..." : "Enter Trelis Life"}
+            {isSubmitting ? "Building Structure..." : "Enter Daily Small Wins"}
           </button>
         )}
       </div>

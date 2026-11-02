@@ -1,8 +1,8 @@
-# Trelis Life
+# Daily Small Wins
 
 **A calm daily structure app for capturing small wins and reflecting on the day.**
 
-Trelis Life is a portfolio-stage Next.js application exploring a gentler alternative to rigid habit checklists. Its current interface combines morning and evening check-ins with user-created playlists for recording small wins. The browser interface persists state with Zustand. Supabase Auth and data-sync code remains in the repository as a **historical integration**; the original Supabase project has been deleted, so that backend is no longer available.
+Daily Small Wins is a portfolio-stage Next.js application exploring a gentler alternative to rigid habit checklists. Its current interface combines morning and evening check-ins with user-created playlists for recording small wins. The browser interface persists state with Zustand. Supabase Auth and data-sync code remains in the repository as a **historical integration**; the original Supabase project has been deleted, so that backend is no longer available.
 
 > **Project maturity:** substantial prototype / work in progress. The repository contains implemented routes, local state, authentication screens, historical database migrations, and prior cloud-sync code. The original backend is deleted. No currently working Supabase service, production readiness, or end-to-end behavior is claimed or verified.
 
@@ -33,8 +33,8 @@ No dependency installation, build, lint, live-service check, or database access 
 
 ## Review before public use
 
-- [`supabase/seed_phase4_protocol.sql`](./supabase/seed_phase4_protocol.sql) requires a separate public-data review to determine whether it contains personal data and whether it is safe to publish. Its contents are intentionally not reproduced here. It was not executed. No Supabase project or database was accessed.
-- Historical [`USER_MANUAL.md`](./USER_MANUAL.md) and [`TRELIS_LIFE_SOURCE_OF_TRUTH.md`](./TRELIS_LIFE_SOURCE_OF_TRUTH.md) contain descriptions that do not consistently match the current code. Use the source-linked blueprint below for the current implementation audit.
+- An earlier seed-script warning refers to a file absent from this checkout. See the [Project Blueprint](./PROJECT_BLUEPRINT.md#migration-and-seed-boundaries) for the current boundary.
+- Archived product documents describe prior plans that do not consistently match the current code. Use the source-linked blueprint below for the current implementation audit.
 
 ## Documentation
 
